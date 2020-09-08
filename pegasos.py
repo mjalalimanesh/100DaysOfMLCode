@@ -1,5 +1,5 @@
 import numpy as np
-from project1 import get_order
+from utils import get_order
 
 def pegasos_single_step_update(
         feature_vector,
