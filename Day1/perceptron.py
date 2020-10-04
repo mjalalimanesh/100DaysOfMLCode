@@ -37,11 +37,6 @@ def perceptron(feature_matrix, labels, T):
     iterations through the data set, there is no need to worry about
     stopping early.
 
-    NOTE: Please use the previously implemented functions when applicable.
-    Do not copy paste code from previous parts.
-
-    NOTE: Iterate the data matrix by the orders returned by get_order(feature_matrix.shape[0])
-
     Args:
         feature_matrix -  A numpy matrix describing the given data. Each row
             represents a single data point.
