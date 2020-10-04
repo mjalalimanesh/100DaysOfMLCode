@@ -14,14 +14,14 @@ A **Pegasos** is an algorithm used for supervised learning of binary classifiers
 The pegasos algorithm has the hyperparameter λ, giving more flexibility to the model to be adjusted. 
 
 ### Day 4 : Compare Perceptron, Average Perceptron and Pegasos
-Compare Perceptron, Average Perceptron and Pegasos written in previous days on a toy dataset
+Comparison between the convergence of  perceptron, average perceptron, and pegasos linear classifiers on a toy dataset
 ![Comparison between the convergence of perceptron, average perceptron, and pegasos linear classifiers on a toy dataset
 ](https://github.com/mjalalimanesh/100DaysOfMLCode/blob/master/Day4/compare_classifiers_toy_data.gif)
 
 ### Day 5 : Food Review Sentiment Analysis with NumPy
-A **Perceptron** is an algorithm used for supervised learning of binary classifiers *[Wikipedia]*.  
+Sentiment analysis of a food review dataset with bag-of-words model using pegasos classifier. Most positive and negative explainatory words are shown.
 ![Comparison between the convergence of perceptron, average perceptron, and pegasos linear classifiers on a toy dataset
 ](https://github.com/mjalalimanesh/100DaysOfMLCode/blob/master/Day5/sentiment_words.png)
 
-### Day 6 : Perceptron Linear Classifier
-A **Perceptron** is an algorithm used for supervised learning of binary classifiers *[Wikipedia]*.  
+### Day 6 : SVM sklearn cancer
+SVM sklearn cancer
