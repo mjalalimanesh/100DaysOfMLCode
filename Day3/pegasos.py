@@ -46,8 +46,6 @@ def pegasos(feature_matrix, labels, T, L):
     where t is a counter for the number of updates performed so far (between 1
     and nT inclusive).
 
-    NOTE: Please use the previously implemented functions when applicable.
-    Do not copy paste code from previous parts.
 
     Args:
         feature_matrix - A numpy matrix describing the given data. Each row
