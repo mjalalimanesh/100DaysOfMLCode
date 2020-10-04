@@ -2,6 +2,8 @@ from string import punctuation, digits
 import numpy as np
 import utils
 from pegasos import pegasos
+from matplotlib import pyplot as plt
+
 
 def extract_words(input_string):
     """
@@ -73,3 +75,20 @@ print(" *** Most Positive Word Features ***")
 print(sorted_word_features[0:20])
 print(" *** Most Negative Word Features ***")
 print(sorted_word_features[-20:-1])
+
+x = np.repeat([-1, 1], 10)
+y = np.tile(np.arange(1,11), 2)
+fig, ax = plt.subplots()
+wlist = sorted_word_features[-11:-1] + sorted_word_features[0:10]
+colors = ['g' if label == 1 else 'r' for label in x]
+for i, word in enumerate(wlist):
+    ax.scatter(x[i], y[i] , s=700*(len(word)) ,c =colors[i], \
+                marker=r"$ {} $".format(word), edgecolors='none')
+ax.spines['left'].set_position('zero')
+ax.spines['right'].set_color('none')
+ax.spines['top'].set_color('none')
+plt.xticks([-1, 1], ["Negative", "Positive"], fontsize="x-large")
+plt.yticks([0, 10], ["", "1.0"])
+plt.ylabel("Effect", rotation=0, fontsize="x-large")
+ax.set_xlim([-2, 2])
+ax.yaxis.set_label_coords(0.5,1.05)
