@@ -20,6 +20,8 @@ Compare Perceptron, Average Perceptron and Pegasos written in previous days on a
 
 ### Day 5 : Food Review Sentiment Analysis with NumPy
 A **Perceptron** is an algorithm used for supervised learning of binary classifiers *[Wikipedia]*.  
+![Comparison between the convergence of perceptron, average perceptron, and pegasos linear classifiers on a toy dataset
+](https://github.com/mjalalimanesh/100DaysOfMLCode/blob/master/Day5/sentiment_words.png)
 
 ### Day 6 : Perceptron Linear Classifier
 A **Perceptron** is an algorithm used for supervised learning of binary classifiers *[Wikipedia]*.  
